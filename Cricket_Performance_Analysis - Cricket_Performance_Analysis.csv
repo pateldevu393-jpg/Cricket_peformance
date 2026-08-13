@@ -1,0 +1,301 @@
+Match ID,Match Date,Season,Team (Country),Opponent Team,Venue,Player Name,Player Role,Runs,Wickets,Bowling Type,Match Result (Win/Loss)
+M001,2026-05-05,2026,South Africa,New Zealand,Sydney,Virat Kohli,Batsman,17,1,Spin,Loss
+M002,2026-02-23,2026,Pakistan,Australia,Ahmedabad,Virat Kohli,Batsman,8,1,Fast,Loss
+M003,2025-07-16,2025,New Zealand,England,Delhi,Virat Kohli,Bowler,40,3,Medium,Loss
+M004,2025-12-12,2025,England,India,Ahmedabad,David Warner,Wicket Keeper,20,1,Fast,Win
+M005,2025-06-19,2025,New Zealand,India,Cape Town,KL Rahul,Wicket Keeper,138,1,Spin,Loss
+M006,2025-10-20,2025,South Africa,India,Mumbai,David Warner,Batsman,68,0,Spin,Win
+M007,2026-03-05,2026,South Africa,Pakistan,Sydney,Shubman Gill,Batsman,39,6,Spin,Win
+M008,2025-02-04,2025,South Africa,England,Sydney,Rohit Sharma,All-rounder,109,3,Fast,Loss
+M009,2026-04-27,2026,England,Pakistan,Lords,David Warner,Batsman,81,3,Medium,Win
+M010,2025-08-03,2025,South Africa,Australia,Mumbai,David Warner,All-rounder,10,6,Spin,Win
+M011,2026-02-23,2026,England,South Africa,Sydney,Travis Head,Wicket Keeper,39,4,Fast,Win
+M012,2025-07-05,2025,South Africa,New Zealand,Ahmedabad,Joe Root,All-rounder,6,3,Medium,Loss
+M013,2026-04-02,2026,Australia,New Zealand,Mumbai,Steve Smith,Batsman,40,5,Spin,Loss
+M014,2025-02-18,2025,Australia,New Zealand,Ahmedabad,Rohit Sharma,Batsman,146,6,Medium,Loss
+M015,2026-01-23,2026,South Africa,India,Ahmedabad,KL Rahul,Batsman,105,0,Spin,Win
+M016,2025-02-26,2025,Pakistan,South Africa,Delhi,Steve Smith,Wicket Keeper,141,0,Fast,Loss
+M017,2025-07-21,2025,India,New Zealand,Sydney,Virat Kohli,Batsman,86,2,Fast,Win
+M018,2025-08-31,2025,New Zealand,England,Delhi,Kane Williamson,Batsman,70,2,Fast,Win
+M019,2025-02-22,2025,India,New Zealand,Cape Town,Steve Smith,Bowler,25,6,Spin,Loss
+M020,2025-08-15,2025,South Africa,India,Lords,Babar Azam,Batsman,9,2,Medium,Loss
+M021,2025-09-18,2025,South Africa,India,Cape Town,Virat Kohli,Batsman,63,5,Spin,Loss
+M022,2026-02-28,2026,Australia,New Zealand,Lords,Shubman Gill,All-rounder,144,1,Medium,Loss
+M023,2025-09-05,2025,New Zealand,South Africa,Sydney,Rohit Sharma,Wicket Keeper,20,6,Spin,Loss
+M024,2025-12-21,2025,New Zealand,India,Ahmedabad,Babar Azam,Bowler,38,3,Fast,Win
+M025,2025-11-25,2025,Pakistan,New Zealand,Ahmedabad,Virat Kohli,All-rounder,8,1,Spin,Loss
+M026,2025-02-25,2025,England,Australia,Mumbai,Virat Kohli,Bowler,81,4,Medium,Win
+M027,2025-09-02,2025,England,Pakistan,Cape Town,KL Rahul,All-rounder,60,0,Medium,Win
+M028,2026-04-05,2026,Australia,England,Cape Town,Travis Head,Wicket Keeper,143,2,Spin,Loss
+M029,2026-04-19,2026,Australia,India,Cape Town,David Warner,All-rounder,33,0,Medium,Loss
+M030,2025-04-22,2025,Australia,England,Mumbai,Virat Kohli,Bowler,96,1,Fast,Win
+M031,2025-05-15,2025,South Africa,Pakistan,Lords,Shubman Gill,All-rounder,121,0,Spin,Loss
+M032,2026-01-05,2026,India,New Zealand,Ahmedabad,Hardik Pandya,Bowler,20,1,Medium,Loss
+M033,2025-04-05,2025,South Africa,Australia,Ahmedabad,Hardik Pandya,Bowler,71,6,Fast,Win
+M034,2026-01-15,2026,New Zealand,England,Cape Town,Travis Head,Batsman,28,1,Fast,Win
+M035,2026-05-08,2026,England,India,Lords,Virat Kohli,All-rounder,143,3,Fast,Win
+M036,2025-08-29,2025,New Zealand,Australia,Mumbai,Shubman Gill,Batsman,41,4,Fast,Loss
+M037,2026-05-16,2026,South Africa,New Zealand,Mumbai,KL Rahul,All-rounder,76,4,Medium,Loss
+M038,2026-04-29,2026,New Zealand,Pakistan,Cape Town,J Bumrah,Wicket Keeper,119,3,Medium,Loss
+M039,2026-05-12,2026,South Africa,Australia,Sydney,KL Rahul,Batsman,2,1,Medium,Loss
+M040,2025-12-17,2025,India,South Africa,Delhi,Hardik Pandya,Batsman,38,1,Spin,Loss
+M041,2025-02-04,2025,New Zealand,South Africa,Sydney,J Bumrah,Bowler,27,3,Spin,Win
+M042,2025-12-11,2025,England,Australia,Sydney,J Bumrah,Wicket Keeper,119,6,Fast,Loss
+M043,2026-01-17,2026,Pakistan,India,Lords,David Warner,All-rounder,88,0,Spin,Loss
+M044,2025-03-31,2025,Australia,England,Delhi,David Warner,Bowler,52,2,Spin,Win
+M045,2025-04-05,2025,Australia,Pakistan,Mumbai,Steve Smith,Wicket Keeper,33,1,Spin,Win
+M046,2025-03-15,2025,England,South Africa,Cape Town,Rohit Sharma,Batsman,50,6,Medium,Win
+M047,2025-04-02,2025,Australia,New Zealand,Lords,Kane Williamson,All-rounder,65,4,Spin,Loss
+M048,2025-07-03,2025,Pakistan,New Zealand,Lords,Rohit Sharma,All-rounder,118,4,Fast,Loss
+M049,2025-10-07,2025,Pakistan,India,Sydney,Steve Smith,All-rounder,54,2,Fast,Loss
+M050,2026-03-04,2026,New Zealand,Pakistan,Delhi,Kane Williamson,Bowler,2,1,Medium,Win
+M051,2026-04-03,2026,Australia,New Zealand,Mumbai,Kane Williamson,Bowler,90,4,Spin,Loss
+M052,2025-12-20,2025,Australia,Pakistan,Sydney,David Warner,Bowler,81,5,Medium,Loss
+M053,2026-04-11,2026,Pakistan,England,Ahmedabad,Shubman Gill,Wicket Keeper,83,6,Medium,Win
+M054,2025-03-31,2025,India,New Zealand,Mumbai,Kane Williamson,All-rounder,58,3,Fast,Loss
+M055,2026-05-10,2026,Australia,South Africa,Mumbai,Shubman Gill,Bowler,54,6,Fast,Loss
+M056,2025-06-26,2025,Australia,New Zealand,Delhi,Steve Smith,Wicket Keeper,59,2,Medium,Loss
+M057,2025-12-29,2025,South Africa,England,Delhi,Joe Root,Wicket Keeper,49,5,Spin,Win
+M058,2025-10-14,2025,Australia,South Africa,Lords,Hardik Pandya,Wicket Keeper,46,3,Medium,Loss
+M059,2025-06-05,2025,England,Pakistan,Ahmedabad,Babar Azam,Bowler,2,6,Spin,Loss
+M060,2025-09-29,2025,England,India,Sydney,David Warner,Bowler,114,5,Spin,Win
+M061,2025-08-27,2025,India,New Zealand,Ahmedabad,KL Rahul,Batsman,50,4,Spin,Win
+M062,2026-01-31,2026,England,New Zealand,Mumbai,Kane Williamson,All-rounder,20,5,Fast,Loss
+M063,2026-04-06,2026,Pakistan,Australia,Mumbai,Shubman Gill,Wicket Keeper,93,4,Spin,Win
+M064,2025-09-03,2025,Australia,South Africa,Delhi,Kane Williamson,Wicket Keeper,55,1,Fast,Win
+M065,2026-02-02,2026,England,India,Lords,Hardik Pandya,Bowler,110,1,Spin,Loss
+M066,2025-04-16,2025,Pakistan,England,Mumbai,J Bumrah,Batsman,44,0,Fast,Loss
+M067,2025-10-15,2025,Pakistan,South Africa,Lords,Virat Kohli,Bowler,73,0,Fast,Loss
+M068,2025-06-27,2025,South Africa,India,Lords,Kane Williamson,Wicket Keeper,75,5,Fast,Win
+M069,2025-04-25,2025,England,Australia,Mumbai,David Warner,All-rounder,84,0,Spin,Win
+M070,2025-08-28,2025,New Zealand,England,Lords,KL Rahul,All-rounder,5,6,Fast,Win
+M071,2025-06-12,2025,South Africa,India,Ahmedabad,Shubman Gill,Wicket Keeper,62,4,Fast,Win
+M072,2025-05-04,2025,South Africa,India,Ahmedabad,Hardik Pandya,Batsman,98,6,Medium,Win
+M073,2025-12-05,2025,New Zealand,India,Lords,Travis Head,All-rounder,112,2,Fast,Win
+M074,2026-04-21,2026,South Africa,New Zealand,Mumbai,Shubman Gill,Bowler,10,5,Spin,Loss
+M075,2025-04-22,2025,Pakistan,England,Cape Town,Steve Smith,Bowler,17,4,Spin,Loss
+M076,2025-08-07,2025,England,South Africa,Cape Town,Joe Root,Bowler,11,4,Spin,Win
+M077,2025-04-27,2025,India,South Africa,Sydney,Shubman Gill,Batsman,81,0,Medium,Loss
+M078,2025-03-28,2025,England,Pakistan,Sydney,David Warner,All-rounder,123,0,Medium,Win
+M079,2026-01-18,2026,Pakistan,Australia,Lords,Shubman Gill,All-rounder,16,6,Spin,Win
+M080,2026-02-25,2026,England,Australia,Mumbai,David Warner,Batsman,51,5,Spin,Loss
+M081,2025-03-21,2025,Pakistan,South Africa,Cape Town,KL Rahul,Bowler,50,3,Fast,Loss
+M082,2025-01-07,2025,India,Pakistan,Mumbai,Joe Root,Bowler,119,5,Medium,Win
+M083,2025-06-26,2025,New Zealand,South Africa,Delhi,Steve Smith,Wicket Keeper,30,4,Medium,Loss
+M084,2025-05-15,2025,New Zealand,England,Sydney,Shubman Gill,Bowler,77,2,Spin,Win
+M085,2025-08-07,2025,New Zealand,Pakistan,Cape Town,Shubman Gill,Bowler,62,6,Fast,Win
+M086,2026-05-15,2026,England,India,Delhi,Babar Azam,Wicket Keeper,53,4,Spin,Loss
+M087,2025-01-25,2025,England,India,Sydney,Shubman Gill,Bowler,54,1,Spin,Loss
+M088,2026-01-12,2026,South Africa,New Zealand,Delhi,Babar Azam,Bowler,115,6,Medium,Loss
+M089,2025-08-19,2025,Australia,South Africa,Delhi,Steve Smith,Batsman,121,5,Medium,Win
+M090,2026-02-20,2026,New Zealand,Pakistan,Delhi,Hardik Pandya,Bowler,115,0,Spin,Loss
+M091,2026-05-09,2026,South Africa,New Zealand,Cape Town,David Warner,Wicket Keeper,3,3,Medium,Win
+M092,2025-06-21,2025,England,India,Lords,Rohit Sharma,Batsman,119,2,Spin,Win
+M093,2025-02-11,2025,India,Pakistan,Lords,David Warner,All-rounder,123,2,Spin,Win
+M094,2026-01-10,2026,Australia,New Zealand,Sydney,J Bumrah,Batsman,97,3,Medium,Loss
+M095,2026-03-03,2026,New Zealand,Pakistan,Cape Town,Shubman Gill,Batsman,16,3,Fast,Loss
+M096,2025-10-03,2025,New Zealand,India,Lords,Hardik Pandya,Wicket Keeper,87,2,Spin,Win
+M097,2026-01-06,2026,Pakistan,Australia,Mumbai,Travis Head,Wicket Keeper,142,5,Fast,Loss
+M098,2026-03-22,2026,India,Pakistan,Sydney,David Warner,Wicket Keeper,110,0,Fast,Win
+M099,2025-10-12,2025,New Zealand,England,Ahmedabad,Kane Williamson,Wicket Keeper,8,4,Medium,Win
+M100,2026-01-28,2026,England,New Zealand,Ahmedabad,Travis Head,Batsman,57,5,Spin,Loss
+M101,2025-12-21,2025,New Zealand,England,Cape Town,J Bumrah,Bowler,32,0,Fast,Loss
+M102,2025-07-16,2025,South Africa,England,Mumbai,Steve Smith,Wicket Keeper,51,4,Fast,Loss
+M103,2025-10-27,2025,Pakistan,India,Lords,Kane Williamson,Batsman,34,3,Fast,Win
+M104,2025-08-26,2025,South Africa,Pakistan,Cape Town,Joe Root,Wicket Keeper,0,3,Fast,Loss
+M105,2025-03-10,2025,India,Australia,Ahmedabad,Travis Head,Batsman,114,4,Spin,Win
+M106,2025-11-03,2025,New Zealand,South Africa,Cape Town,David Warner,Batsman,17,6,Medium,Win
+M107,2026-02-09,2026,England,South Africa,Mumbai,Hardik Pandya,Bowler,84,1,Medium,Loss
+M108,2025-08-01,2025,Pakistan,England,Sydney,KL Rahul,Bowler,101,2,Fast,Win
+M109,2025-05-25,2025,Pakistan,New Zealand,Lords,Travis Head,All-rounder,100,3,Spin,Win
+M110,2025-09-14,2025,New Zealand,India,Lords,Babar Azam,Bowler,69,0,Spin,Win
+M111,2025-01-15,2025,South Africa,India,Sydney,Babar Azam,Batsman,116,6,Spin,Win
+M112,2025-04-06,2025,New Zealand,South Africa,Lords,Shubman Gill,All-rounder,39,0,Spin,Loss
+M113,2026-04-14,2026,England,South Africa,Delhi,J Bumrah,All-rounder,139,0,Medium,Loss
+M114,2026-01-21,2026,New Zealand,India,Sydney,KL Rahul,Bowler,131,4,Fast,Loss
+M115,2026-01-06,2026,New Zealand,Australia,Cape Town,Babar Azam,Wicket Keeper,73,4,Fast,Loss
+M116,2026-01-04,2026,New Zealand,South Africa,Mumbai,Babar Azam,Wicket Keeper,30,2,Fast,Loss
+M117,2025-07-25,2025,India,England,Lords,Virat Kohli,Wicket Keeper,129,6,Spin,Win
+M118,2025-05-26,2025,England,India,Sydney,Virat Kohli,All-rounder,25,4,Spin,Loss
+M119,2026-03-15,2026,Pakistan,England,Delhi,KL Rahul,Batsman,142,3,Medium,Win
+M120,2025-07-26,2025,Australia,England,Sydney,Travis Head,Wicket Keeper,111,0,Fast,Win
+M121,2025-07-14,2025,New Zealand,Australia,Lords,Shubman Gill,All-rounder,122,5,Spin,Loss
+M122,2026-04-27,2026,New Zealand,South Africa,Ahmedabad,Kane Williamson,Bowler,55,1,Spin,Loss
+M123,2026-04-23,2026,Pakistan,New Zealand,Delhi,David Warner,All-rounder,124,0,Spin,Loss
+M124,2025-03-28,2025,Pakistan,New Zealand,Sydney,Hardik Pandya,All-rounder,133,6,Spin,Loss
+M125,2025-01-10,2025,New Zealand,South Africa,Sydney,Travis Head,All-rounder,28,4,Spin,Win
+M126,2025-11-05,2025,New Zealand,South Africa,Mumbai,Virat Kohli,Wicket Keeper,139,3,Medium,Loss
+M127,2025-06-14,2025,New Zealand,India,Mumbai,Joe Root,All-rounder,32,5,Fast,Loss
+M128,2025-02-26,2025,Australia,New Zealand,Lords,David Warner,Wicket Keeper,107,6,Spin,Win
+M129,2026-03-17,2026,New Zealand,India,Mumbai,Kane Williamson,Wicket Keeper,82,3,Fast,Loss
+M130,2025-07-03,2025,Pakistan,New Zealand,Lords,KL Rahul,Wicket Keeper,12,5,Spin,Win
+M131,2026-01-23,2026,New Zealand,South Africa,Ahmedabad,Kane Williamson,Wicket Keeper,150,2,Fast,Loss
+M132,2025-05-19,2025,Pakistan,South Africa,Ahmedabad,Virat Kohli,Batsman,52,3,Spin,Loss
+M133,2025-01-15,2025,India,Australia,Sydney,KL Rahul,Wicket Keeper,89,0,Fast,Win
+M134,2026-03-10,2026,Australia,Pakistan,Sydney,Babar Azam,All-rounder,105,1,Medium,Loss
+M135,2025-07-09,2025,Pakistan,India,Lords,David Warner,All-rounder,81,5,Medium,Loss
+M136,2025-04-21,2025,Pakistan,India,Sydney,Shubman Gill,Bowler,84,0,Fast,Loss
+M137,2025-05-26,2025,England,South Africa,Sydney,J Bumrah,Batsman,45,1,Fast,Win
+M138,2025-08-14,2025,New Zealand,India,Lords,J Bumrah,Bowler,39,0,Fast,Win
+M139,2026-04-09,2026,Pakistan,South Africa,Delhi,J Bumrah,Batsman,5,4,Spin,Loss
+M140,2025-10-31,2025,South Africa,Australia,Mumbai,Joe Root,Bowler,133,3,Fast,Loss
+M141,2025-06-13,2025,Pakistan,India,Ahmedabad,Travis Head,Bowler,1,4,Medium,Loss
+M142,2025-08-21,2025,New Zealand,Australia,Mumbai,J Bumrah,All-rounder,146,1,Medium,Loss
+M143,2025-01-20,2025,Pakistan,Australia,Lords,David Warner,Bowler,52,0,Fast,Loss
+M144,2025-12-17,2025,South Africa,England,Mumbai,Kane Williamson,Batsman,134,1,Spin,Loss
+M145,2025-03-17,2025,South Africa,New Zealand,Ahmedabad,J Bumrah,All-rounder,8,3,Fast,Win
+M146,2025-07-07,2025,South Africa,Pakistan,Mumbai,David Warner,Bowler,77,6,Fast,Loss
+M147,2025-07-08,2025,Pakistan,India,Sydney,Shubman Gill,Wicket Keeper,29,2,Spin,Win
+M148,2025-02-08,2025,Australia,India,Mumbai,Steve Smith,Bowler,138,0,Medium,Loss
+M149,2025-10-17,2025,New Zealand,India,Cape Town,Rohit Sharma,Wicket Keeper,132,4,Fast,Loss
+M150,2025-05-11,2025,England,Australia,Ahmedabad,Joe Root,All-rounder,97,2,Fast,Loss
+M151,2026-02-16,2026,Pakistan,Australia,Sydney,Shubman Gill,All-rounder,130,4,Spin,Win
+M152,2025-04-22,2025,England,India,Ahmedabad,Rohit Sharma,Batsman,65,0,Fast,Win
+M153,2026-03-02,2026,South Africa,India,Sydney,Kane Williamson,Batsman,62,2,Medium,Win
+M154,2025-10-07,2025,Pakistan,South Africa,Cape Town,Babar Azam,All-rounder,145,2,Medium,Loss
+M155,2025-11-06,2025,Australia,Pakistan,Mumbai,Shubman Gill,Wicket Keeper,148,6,Fast,Loss
+M156,2026-04-04,2026,Pakistan,England,Cape Town,David Warner,Wicket Keeper,20,3,Spin,Win
+M157,2025-04-29,2025,England,India,Sydney,Joe Root,Bowler,109,2,Medium,Loss
+M158,2025-09-09,2025,India,England,Lords,Steve Smith,Bowler,18,4,Fast,Win
+M159,2025-05-12,2025,Australia,South Africa,Sydney,J Bumrah,Wicket Keeper,70,6,Fast,Loss
+M160,2025-07-04,2025,Pakistan,Australia,Sydney,J Bumrah,Wicket Keeper,106,2,Medium,Win
+M161,2026-05-11,2026,Pakistan,India,Mumbai,Travis Head,Batsman,41,6,Fast,Win
+M162,2025-05-10,2025,India,England,Delhi,Rohit Sharma,Batsman,111,5,Medium,Loss
+M163,2026-04-21,2026,Pakistan,New Zealand,Delhi,Rohit Sharma,Bowler,97,1,Medium,Win
+M164,2025-04-29,2025,England,South Africa,Cape Town,Hardik Pandya,Batsman,109,1,Medium,Win
+M165,2025-11-12,2025,India,England,Cape Town,KL Rahul,Bowler,24,2,Spin,Loss
+M166,2026-03-11,2026,Australia,New Zealand,Mumbai,Kane Williamson,Bowler,37,2,Fast,Loss
+M167,2025-01-03,2025,India,New Zealand,Cape Town,Shubman Gill,All-rounder,112,4,Medium,Loss
+M168,2025-01-24,2025,England,New Zealand,Delhi,Virat Kohli,Wicket Keeper,125,1,Fast,Win
+M169,2025-03-26,2025,Australia,New Zealand,Sydney,Travis Head,Batsman,16,6,Medium,Loss
+M170,2025-10-27,2025,South Africa,India,Cape Town,Steve Smith,Wicket Keeper,105,3,Spin,Win
+M171,2025-02-25,2025,Australia,New Zealand,Mumbai,Travis Head,Bowler,51,4,Spin,Win
+M172,2025-02-09,2025,New Zealand,India,Sydney,KL Rahul,Batsman,73,0,Spin,Win
+M173,2026-01-14,2026,South Africa,India,Lords,J Bumrah,Bowler,110,1,Medium,Win
+M174,2025-03-13,2025,India,South Africa,Lords,Steve Smith,Bowler,50,1,Spin,Win
+M175,2025-08-28,2025,Australia,England,Ahmedabad,J Bumrah,All-rounder,128,4,Spin,Win
+M176,2025-07-16,2025,New Zealand,Australia,Lords,Shubman Gill,Batsman,43,0,Spin,Loss
+M177,2025-07-12,2025,England,South Africa,Cape Town,David Warner,Bowler,55,1,Medium,Win
+M178,2026-05-09,2026,India,Australia,Cape Town,Hardik Pandya,Wicket Keeper,98,0,Spin,Win
+M179,2025-11-30,2025,South Africa,England,Lords,Travis Head,Batsman,33,2,Spin,Loss
+M180,2025-05-05,2025,New Zealand,England,Cape Town,J Bumrah,Wicket Keeper,85,2,Medium,Loss
+M181,2025-11-25,2025,New Zealand,South Africa,Sydney,Babar Azam,Bowler,128,4,Medium,Win
+M182,2025-04-20,2025,India,Pakistan,Cape Town,Hardik Pandya,All-rounder,9,3,Fast,Loss
+M183,2025-04-20,2025,New Zealand,Australia,Cape Town,J Bumrah,Batsman,61,2,Spin,Loss
+M184,2025-03-11,2025,India,South Africa,Delhi,Babar Azam,Bowler,93,1,Spin,Loss
+M185,2025-11-30,2025,Pakistan,India,Mumbai,KL Rahul,Bowler,21,0,Spin,Loss
+M186,2025-01-21,2025,England,Pakistan,Ahmedabad,Virat Kohli,Bowler,97,0,Fast,Win
+M187,2026-02-09,2026,India,South Africa,Ahmedabad,Babar Azam,Wicket Keeper,75,2,Fast,Loss
+M188,2025-04-09,2025,South Africa,Australia,Sydney,KL Rahul,Wicket Keeper,4,5,Medium,Loss
+M189,2025-12-21,2025,South Africa,England,Cape Town,David Warner,Wicket Keeper,28,0,Fast,Loss
+M190,2026-05-08,2026,Pakistan,Australia,Delhi,Virat Kohli,Wicket Keeper,135,3,Fast,Loss
+M191,2025-05-21,2025,England,India,Delhi,Steve Smith,Batsman,88,3,Fast,Loss
+M192,2026-03-07,2026,Pakistan,England,Mumbai,Hardik Pandya,Bowler,150,4,Fast,Win
+M193,2025-09-13,2025,New Zealand,England,Ahmedabad,Travis Head,Wicket Keeper,136,4,Medium,Win
+M194,2025-03-24,2025,India,Australia,Sydney,Shubman Gill,Batsman,76,3,Fast,Win
+M195,2025-02-03,2025,New Zealand,India,Lords,KL Rahul,Wicket Keeper,121,6,Fast,Loss
+M196,2025-07-29,2025,New Zealand,Australia,Ahmedabad,Travis Head,Bowler,111,1,Fast,Win
+M197,2025-11-19,2025,South Africa,New Zealand,Ahmedabad,Steve Smith,Batsman,76,1,Fast,Win
+M198,2026-01-05,2026,Pakistan,India,Ahmedabad,Rohit Sharma,Batsman,16,6,Spin,Loss
+M199,2025-01-12,2025,Australia,India,Sydney,Joe Root,Wicket Keeper,17,2,Medium,Loss
+M200,2025-11-14,2025,India,New Zealand,Delhi,Babar Azam,Wicket Keeper,100,0,Medium,Win
+M201,2025-08-10,2025,Australia,Pakistan,Cape Town,KL Rahul,Bowler,17,1,Fast,Win
+M202,2025-07-05,2025,England,South Africa,Lords,KL Rahul,Wicket Keeper,16,4,Medium,Loss
+M203,2025-12-12,2025,South Africa,India,Lords,Rohit Sharma,Bowler,28,0,Fast,Loss
+M204,2026-02-28,2026,India,Pakistan,Mumbai,Babar Azam,Batsman,55,0,Fast,Win
+M205,2026-01-28,2026,Pakistan,South Africa,Lords,Virat Kohli,Bowler,74,6,Medium,Loss
+M206,2025-09-09,2025,England,India,Ahmedabad,Joe Root,Wicket Keeper,25,1,Fast,Win
+M207,2025-11-18,2025,Australia,South Africa,Delhi,Virat Kohli,Bowler,64,0,Fast,Loss
+M208,2025-02-18,2025,Pakistan,New Zealand,Lords,Kane Williamson,Batsman,91,0,Medium,Loss
+M209,2025-09-29,2025,South Africa,India,Mumbai,David Warner,Batsman,118,5,Fast,Win
+M210,2025-09-29,2025,New Zealand,England,Sydney,Hardik Pandya,All-rounder,31,6,Spin,Win
+M211,2025-09-17,2025,South Africa,India,Cape Town,Joe Root,Wicket Keeper,16,1,Medium,Win
+M212,2025-03-17,2025,New Zealand,Australia,Cape Town,Kane Williamson,Bowler,81,6,Spin,Loss
+M213,2025-11-21,2025,Pakistan,India,Delhi,Joe Root,Wicket Keeper,125,4,Medium,Loss
+M214,2025-04-23,2025,India,New Zealand,Sydney,Shubman Gill,Wicket Keeper,127,5,Fast,Win
+M215,2026-04-27,2026,Pakistan,Australia,Sydney,Travis Head,All-rounder,55,0,Fast,Loss
+M216,2025-03-23,2025,Pakistan,England,Lords,Virat Kohli,All-rounder,79,4,Fast,Loss
+M217,2026-01-06,2026,Australia,India,Sydney,Joe Root,Batsman,62,5,Spin,Loss
+M218,2025-06-10,2025,England,Pakistan,Cape Town,Kane Williamson,Batsman,105,2,Medium,Loss
+M219,2025-02-22,2025,New Zealand,Pakistan,Lords,David Warner,Wicket Keeper,3,3,Medium,Win
+M220,2025-06-04,2025,Australia,Pakistan,Sydney,Shubman Gill,All-rounder,26,3,Fast,Loss
+M221,2026-04-24,2026,Australia,South Africa,Ahmedabad,Kane Williamson,All-rounder,8,1,Fast,Loss
+M222,2025-03-31,2025,New Zealand,England,Mumbai,KL Rahul,Batsman,145,5,Medium,Loss
+M223,2026-02-04,2026,New Zealand,Australia,Ahmedabad,Babar Azam,Batsman,21,6,Medium,Win
+M224,2026-01-05,2026,South Africa,Australia,Cape Town,Travis Head,All-rounder,126,1,Spin,Loss
+M225,2026-05-10,2026,England,Australia,Lords,David Warner,All-rounder,77,1,Medium,Win
+M226,2026-02-09,2026,England,Australia,Ahmedabad,Shubman Gill,All-rounder,135,3,Fast,Win
+M227,2026-04-06,2026,New Zealand,Australia,Sydney,KL Rahul,Bowler,11,1,Fast,Loss
+M228,2025-05-12,2025,New Zealand,Australia,Cape Town,Virat Kohli,Batsman,65,3,Spin,Win
+M229,2025-08-04,2025,Pakistan,Australia,Delhi,Rohit Sharma,Batsman,104,2,Medium,Loss
+M230,2025-02-01,2025,England,Pakistan,Ahmedabad,Steve Smith,Bowler,36,0,Fast,Loss
+M231,2025-01-11,2025,India,Australia,Lords,Hardik Pandya,All-rounder,95,2,Fast,Loss
+M232,2026-02-19,2026,New Zealand,Pakistan,Cape Town,J Bumrah,Bowler,73,0,Medium,Loss
+M233,2025-01-15,2025,India,Australia,Lords,Rohit Sharma,Bowler,49,3,Fast,Win
+M234,2025-02-03,2025,Australia,India,Delhi,Shubman Gill,Batsman,54,6,Spin,Win
+M235,2025-08-30,2025,South Africa,England,Cape Town,Kane Williamson,Wicket Keeper,95,4,Spin,Loss
+M236,2025-12-20,2025,India,Australia,Cape Town,Hardik Pandya,Wicket Keeper,23,1,Spin,Win
+M237,2025-09-01,2025,England,South Africa,Lords,David Warner,Batsman,86,5,Medium,Win
+M238,2025-04-01,2025,India,South Africa,Cape Town,Hardik Pandya,All-rounder,71,0,Spin,Win
+M239,2025-01-14,2025,England,South Africa,Cape Town,J Bumrah,Batsman,119,3,Fast,Win
+M240,2025-05-17,2025,Australia,South Africa,Mumbai,Joe Root,Batsman,108,6,Spin,Loss
+M241,2025-11-13,2025,New Zealand,Pakistan,Ahmedabad,Travis Head,Wicket Keeper,143,0,Spin,Loss
+M242,2025-12-18,2025,England,Pakistan,Cape Town,Babar Azam,Bowler,2,3,Fast,Win
+M243,2025-03-26,2025,Australia,Pakistan,Delhi,Hardik Pandya,Batsman,67,2,Fast,Win
+M244,2025-01-15,2025,New Zealand,Pakistan,Sydney,Virat Kohli,Bowler,69,0,Medium,Loss
+M245,2025-05-29,2025,New Zealand,South Africa,Cape Town,Virat Kohli,Batsman,112,4,Spin,Win
+M246,2026-03-04,2026,Australia,India,Mumbai,Babar Azam,Batsman,38,4,Medium,Loss
+M247,2025-08-01,2025,India,England,Lords,Virat Kohli,Wicket Keeper,29,4,Medium,Loss
+M248,2025-01-07,2025,Australia,England,Cape Town,Travis Head,Wicket Keeper,1,0,Spin,Loss
+M249,2026-04-08,2026,Pakistan,Australia,Ahmedabad,Kane Williamson,Bowler,106,3,Spin,Loss
+M250,2025-08-12,2025,India,Pakistan,Ahmedabad,Virat Kohli,All-rounder,100,0,Fast,Loss
+M251,2025-12-10,2025,India,New Zealand,Mumbai,Shubman Gill,Wicket Keeper,86,6,Fast,Loss
+M252,2025-07-26,2025,Australia,New Zealand,Ahmedabad,Rohit Sharma,Wicket Keeper,113,3,Fast,Loss
+M253,2025-03-18,2025,England,India,Cape Town,Shubman Gill,Wicket Keeper,33,4,Medium,Win
+M254,2025-07-04,2025,England,New Zealand,Mumbai,Travis Head,Wicket Keeper,68,4,Fast,Win
+M255,2025-01-07,2025,South Africa,Pakistan,Ahmedabad,Shubman Gill,Wicket Keeper,36,3,Spin,Win
+M256,2025-05-01,2025,England,New Zealand,Delhi,KL Rahul,Wicket Keeper,41,1,Fast,Loss
+M257,2025-07-03,2025,New Zealand,South Africa,Delhi,Rohit Sharma,All-rounder,73,6,Medium,Loss
+M258,2025-01-12,2025,Pakistan,Australia,Sydney,Shubman Gill,Wicket Keeper,141,2,Spin,Win
+M259,2025-11-27,2025,Australia,Pakistan,Mumbai,Joe Root,All-rounder,116,4,Medium,Loss
+M260,2025-12-04,2025,Pakistan,India,Sydney,Babar Azam,Bowler,82,3,Spin,Win
+M261,2025-09-11,2025,India,Pakistan,Delhi,Kane Williamson,All-rounder,17,6,Spin,Loss
+M262,2026-01-20,2026,New Zealand,India,Cape Town,Babar Azam,Batsman,91,6,Spin,Win
+M263,2025-12-23,2025,England,India,Delhi,Hardik Pandya,All-rounder,24,4,Medium,Loss
+M264,2025-02-07,2025,South Africa,New Zealand,Ahmedabad,KL Rahul,All-rounder,132,5,Medium,Win
+M265,2025-11-29,2025,New Zealand,England,Ahmedabad,Steve Smith,Wicket Keeper,3,3,Spin,Loss
+M266,2026-05-11,2026,South Africa,Australia,Lords,Rohit Sharma,All-rounder,134,6,Fast,Loss
+M267,2025-09-09,2025,England,India,Ahmedabad,Steve Smith,Batsman,21,1,Fast,Loss
+M268,2025-05-18,2025,India,Pakistan,Lords,David Warner,Batsman,118,2,Spin,Loss
+M269,2025-02-20,2025,India,South Africa,Mumbai,Hardik Pandya,Batsman,150,2,Medium,Loss
+M270,2026-01-24,2026,Pakistan,New Zealand,Lords,J Bumrah,Bowler,108,1,Medium,Win
+M271,2025-09-02,2025,New Zealand,Australia,Ahmedabad,J Bumrah,Batsman,90,0,Fast,Win
+M272,2026-03-21,2026,South Africa,Pakistan,Lords,Joe Root,Bowler,19,4,Spin,Win
+M273,2025-03-29,2025,South Africa,Pakistan,Sydney,David Warner,Wicket Keeper,134,4,Spin,Loss
+M274,2025-05-23,2025,South Africa,India,Mumbai,Hardik Pandya,Batsman,113,0,Spin,Win
+M275,2025-02-04,2025,South Africa,England,Delhi,Travis Head,Bowler,60,6,Spin,Loss
+M276,2025-06-30,2025,South Africa,New Zealand,Cape Town,Joe Root,All-rounder,37,0,Fast,Loss
+M277,2025-10-06,2025,New Zealand,England,Sydney,Virat Kohli,All-rounder,116,2,Spin,Loss
+M278,2025-12-23,2025,Pakistan,India,Cape Town,Rohit Sharma,Batsman,104,5,Fast,Win
+M279,2025-02-21,2025,Australia,India,Lords,Travis Head,All-rounder,50,3,Medium,Win
+M280,2025-02-10,2025,South Africa,New Zealand,Cape Town,Kane Williamson,Bowler,43,6,Spin,Loss
+M281,2026-03-05,2026,Australia,India,Mumbai,Shubman Gill,Batsman,61,0,Spin,Loss
+M282,2026-01-03,2026,Pakistan,New Zealand,Cape Town,J Bumrah,All-rounder,54,4,Spin,Win
+M283,2025-11-04,2025,South Africa,New Zealand,Lords,KL Rahul,All-rounder,46,0,Medium,Win
+M284,2025-02-26,2025,Australia,India,Mumbai,Babar Azam,All-rounder,107,3,Spin,Win
+M285,2025-12-14,2025,New Zealand,Pakistan,Ahmedabad,Rohit Sharma,All-rounder,78,1,Spin,Win
+M286,2025-07-04,2025,Pakistan,India,Lords,Virat Kohli,All-rounder,61,4,Fast,Win
+M287,2025-05-26,2025,Pakistan,South Africa,Delhi,Joe Root,Wicket Keeper,115,5,Medium,Loss
+M288,2025-02-01,2025,Pakistan,South Africa,Mumbai,J Bumrah,Bowler,131,6,Fast,Loss
+M289,2025-12-01,2025,Pakistan,Australia,Sydney,Kane Williamson,Bowler,38,4,Fast,Win
+M290,2025-07-13,2025,South Africa,Australia,Ahmedabad,Babar Azam,Bowler,128,5,Spin,Win
+M291,2025-04-05,2025,South Africa,India,Sydney,Hardik Pandya,Batsman,61,2,Fast,Win
+M292,2025-02-19,2025,South Africa,Australia,Sydney,KL Rahul,Bowler,76,4,Medium,Win
+M293,2026-04-09,2026,South Africa,New Zealand,Ahmedabad,Shubman Gill,All-rounder,96,3,Medium,Loss
+M294,2025-12-10,2025,South Africa,Pakistan,Mumbai,Hardik Pandya,Batsman,7,3,Medium,Win
+M295,2025-02-17,2025,India,South Africa,Lords,Virat Kohli,Wicket Keeper,105,1,Spin,Win
+M296,2025-01-29,2025,South Africa,Pakistan,Cape Town,Kane Williamson,Batsman,94,6,Fast,Loss
+M297,2026-05-08,2026,South Africa,New Zealand,Sydney,Rohit Sharma,Bowler,143,1,Medium,Win
+M298,2026-04-10,2026,Australia,South Africa,Mumbai,Babar Azam,All-rounder,104,4,Spin,Win
+M299,2025-11-26,2025,Pakistan,Australia,Cape Town,Shubman Gill,All-rounder,111,2,Spin,Win
+M300,2025-12-30,2025,New Zealand,Australia,Cape Town,Rohit Sharma,Batsman,72,2,Fast,Win
