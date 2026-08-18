@@ -1,0 +1,191 @@
+import streamlit as pd
+import pandas as pd
+import numpy as np
+import plotly.express as px
+import plotly.graph_objects as go
+
+# --- PAGE CONFIGURATION ---
+st.set_page_config(
+    page_title="Cricket Performance Analytics",
+    page_icon="🏏",
+    layout="wide"
+)
+
+# --- MOCK DATA GENERATION ---
+@st.cache_data
+def load_cricket_data():
+    players = [
+        "Virat Kohli", "Rohit Sharma", "Jasprit Bumrah", 
+        "Joe Root", "Ben Stokes", "Steve Smith", 
+        "Mitchell Starc", "Kane Williamson", "Rashid Khan"
+    ]
+    teams = ["India", "India", "India", "England", "England", "Australia", "Australia", "New Zealand", "Afghanistan"]
+    roles = ["Batsman", "Batsman", "Bowler", "Batsman", "All-Rounder", "Batsman", "Bowler", "Batsman", "Bowler"]
+    
+    np.random.seed(42)
+    data = {
+        "Player": np.random.choice(players, 500),
+        "Runs_Scored": np.random.randint(0, 120, 500),
+        "Balls_Faced": np.random.randint(1, 90, 500),
+        "Wickets_Taken": np.random.choice([0, 1, 2, 3, 4, 5], 500, p=[0.6, 0.2, 0.1, 0.05, 0.03, 0.02]),
+        "Runs_Conceded": np.random.randint(10, 60, 500),
+        "Overs_Bowled": np.random.randint(1, 11, 500),
+        "Match_Type": np.random.choice(["T20I", "ODI", "Test"], 500)
+    }
+    
+    df = pd.DataFrame(data)
+    
+    # Map teams and roles
+    player_meta = dict(zip(players, zip(teams, roles)))
+    df["Team"] = df["Player"].apply(lambda x: player_meta[x][0])
+    df["Role"] = df["Player"].apply(lambda x: player_meta[x][1])
+    
+    return df
+
+df = load_cricket_data()
+
+# --- SIDEBAR FILTERS ---
+st.sidebar.header("Filter Dashboard")
+selected_team = st.sidebar.multiselect("Select Team", options=df["Team"].unique(), default=df["Team"].unique())
+selected_match_type = st.sidebar.multiselect("Select Match Type", options=df["Match_Type"].unique(), default=df["Match_Type"].unique())
+
+# Filter data
+filtered_df = df[(df["Team"].isin(selected_team)) & (df["Match_Type"].isin(selected_match_type))]
+
+# --- APP TITLE ---
+st.title("🏏 Cricket Performance Analysis Dashboard")
+st.markdown("Analyze player statistics, batting strengths, and bowling impact across match formats.")
+
+# --- METRIC CARDS ---
+total_runs = filtered_df["Runs_Scored"].sum()
+total_wickets = filtered_df["Wickets_Taken"].sum()
+avg_strike_rate = (filtered_df["Runs_Scored"].sum() / filtered_df["Balls_Faced"].sum()) * 100
+
+col1, col2, col3 = st.columns(3)
+col1.metric(label="Total Runs Scored", value=f"{total_runs:,}")
+col2.metric(label="Total Wickets Taken", value=f"{total_wickets:,}")
+col3.metric(label="Overall Strike Rate", value=f"{avg_strike_rate:.2f}")
+
+st.markdown("---")
+
+# --- MAIN ANALYSIS TABS ---
+tab1, tab2, tab3 = st.tabs(["📊 Batting Performance", "🎯 Bowling Performance", "👤 Player Profiling"])
+
+with tab1:
+    st.subheader("Batting Insights")
+    
+    # Aggregate Batting Stats
+    batting_stats = filtered_df.groupby("Player").agg(
+        Total_Runs=("Runs_Scored", "sum"),
+        Total_Balls=("Balls_Faced", "sum"),
+        Highest_Score=("Runs_Scored", "max")
+    ).reset_index()
+    batting_stats["Strike_Rate"] = (batting_stats["Total_Runs"] / batting_stats["Total_Balls"]) * 100
+    
+    col1_bat, col2_bat = st.columns(2)
+    
+    with col1_bat:
+        # Chart: Top Run Scorers
+        top_runs_fig = px.bar(
+            batting_stats.sort_values(by="Total_Runs", ascending=False).head(10),
+            x="Total_Runs", y="Player", orientation="h",
+            title="Top Run Scorers", color="Total_Runs",
+            color_continuous_scale="Blues"
+        )
+        st.plotly_chart(top_runs_fig, use_container_width=True)
+        
+    with col2_bat:
+        # Chart: Runs vs Strike Rate
+        scatter_bat = px.scatter(
+            batting_stats, x="Total_Runs", y="Strike_Rate",
+            hover_name="Player", size="Highest_Score", color="Strike_Rate",
+            title="Runs Scored vs Strike Rate (Size = Highest Score)",
+            color_continuous_scale="Viridis"
+        )
+        st.plotly_chart(scatter_bat, use_container_width=True)
+
+with tab2:
+    st.subheader("Bowling Insights")
+    
+    # Aggregate Bowling Stats
+    bowling_stats = filtered_df.groupby("Player").agg(
+        Wickets=("Wickets_Taken", "sum"),
+        Runs_Given=("Runs_Conceded", "sum"),
+        Overs=("Overs_Bowled", "sum")
+    ).reset_index()
+    
+    # Filter out non-bowlers who haven't bowled overs
+    bowling_stats = bowling_stats[bowling_stats["Overs"] > 0]
+    bowling_stats["Economy_Rate"] = bowling_stats["Runs_Given"] / bowling_stats["Overs"]
+    
+    col1_bowl, col2_bowl = st.columns(2)
+    
+    with col1_bowl:
+        # Chart: Top Wicket Takers
+        top_wickets_fig = px.bar(
+            bowling_stats.sort_values(by="Wickets", ascending=False).head(10),
+            x="Player", y="Wickets",
+            title="Highest Wicket Takers", color="Wickets",
+            color_continuous_scale="Reds"
+        )
+        st.plotly_chart(top_wickets_fig, use_container_width=True)
+        
+    with col2_bowl:
+        # Chart: Economy Rates
+        econ_fig = px.bar(
+            bowling_stats.sort_values(by="Economy_Rate", ascending=True).head(10),
+            x="Economy_Rate", y="Player", orientation="h",
+            title="Most Economical Bowlers (Lower is Better)", color="Economy_Rate",
+            color_continuous_scale="sunsetdark"
+        )
+        st.plotly_chart(econ_fig, use_container_width=True)
+
+with tab3:
+    st.subheader("Individual Player Radar Profile")
+    
+    # Dropdown to choose player
+    available_players = filtered_df["Player"].unique()
+    selected_player = st.selectbox("Select a Player to Profile:", available_players)
+    
+    # Process radar data
+    p_df = filtered_df[filtered_df["Player"] == selected_player]
+    
+    p_runs = p_df["Runs_Scored"].sum()
+    p_balls = p_df["Balls_Faced"].sum()
+    p_sr = (p_runs / p_balls) * 100 if p_balls > 0 else 0
+    p_wickets = p_df["Wickets_Taken"].sum()
+    p_overs = p_df["Overs_Bowled"].sum()
+    p_econ = (p_df["Runs_Conceded"].sum() / p_overs) if p_overs > 0 else 12  # default high value for no overs
+    
+    # Normalize metrics to a 0-100 scale for visual presentation on the radar chart
+    categories = ['Runs Scored', 'Strike Rate', 'Wickets Taken', 'Economy Control']
+    
+    # Basic relative normalization logic against max overall limits
+    norm_runs = min((p_runs / 1500) * 100, 100)
+    norm_sr = min((p_sr / 200) * 100, 100)
+    norm_wkts = min((p_wickets / 50) * 100, 100)
+    norm_econ = max(0, 100 - (p_econ * 8)) # Lower economy = higher score
+    
+    values = [norm_runs, norm_sr, norm_wkts, norm_econ]
+    
+    fig_radar = go.Figure()
+    fig_radar.add_trace(go.Scatterpolar(
+          r=values,
+          theta=categories,
+          fill='toself',
+          name=selected_player,
+          line_color='teal'
+    ))
+    
+    fig_radar.update_layout(
+      polar=dict(
+        radialaxis=dict(visible=True, range=[0, 100])
+      ),
+      showlegend=True,
+      title=f"Attributes Map for {selected_player}"
+    )
+    st.plotly_chart(fig_radar, use_container_width=True)
+
+# --- RAW DATA VIEW ---
+st.subheader("Filtered Match Log Dataset")
+st.dataframe(filtered_df, use_container_width=True)
